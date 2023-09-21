@@ -1,0 +1,152 @@
+/* Procurar fonte, mudar font-size, mudar background color, mudar resumo*/
+:root {
+    /* --cor-primaria: #f7d0dd; */
+    --cor-primaria: #103144;
+    --cor-secundaria: #2b2628;
+    --cor-terciaria: #3082b1;
+  }
+
+body{
+  margin: 0;
+  padding-top: 1;
+  height: 100vh;
+  font-size: 10px;
+}
+
+html{
+    width: 50%;
+    margin: auto;
+    color: white;
+    height: 100vh;
+    background-color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+.curriculo{
+    display: flex;
+    font-size: 1.6em;
+}
+
+.infos{
+    background: var(--cor-primaria);
+    min-width: 25em;
+    display: flexbox;
+}
+
+header{
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+.eu {
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 50%;
+    border: 0.2em solid white;
+}
+
+.meu_nome{
+    font-size: 2.4em;
+    margin-bottom: 0;
+}
+
+.profissao{
+    font-size: 1.5em;
+}
+
+hr{
+    border: none;
+	border-top: 0.1em solid white;
+    margin: 0 2em;
+}
+
+.ctt_infos{
+    width: 84%;
+    margin: auto;
+}
+
+.ctt_info{
+display: flex;
+}
+
+.ctt_img {
+    width: 30px;
+    height: 30px;
+}
+
+.ctt_p{
+ margin-left: 1em;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.infos_title,
+.sobremim h2{
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.curso,
+.ctt_p{
+    font-size: 1.2em;
+}
+
+.ano{
+    color: #3082b1;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.nome_1{
+    font-weight: bold;
+    margin-bottom: 0.8em;
+}
+
+.nome{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.sobremim{
+    margin-left: 1em;   
+    margin-top: 2em;
+}
+
+.sobremim p,
+.ctt_p{
+    font-size: 1.2em;
+}
+
+.destaque{
+    color: var(--cor-primaria);
+    font-weight: bold;
+}
+
+.idiomas{
+    display: flex;
+    align-items: center;
+}
+
+.idiomas_p{
+    margin-right: 0.3em;
+}
+
+.idiomas_meter{
+    margin-right: 1em;
+}
+
+meter#minha-barra {
+    width: 100%;
+    height: 2em;
+}
+
+meter#minha-barra::-webkit-meter-bar {
+    background-color: #e0e0e0;
+}
+
+meter#minha-barra::-webkit-meter-optimum-value {
+    background-color: var(--cor-primaria);
+}
