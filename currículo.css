@@ -11,18 +11,20 @@ body{
   padding-top: 1;
   height: 100vh;
   font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 html{
-    width: 50%;
-    margin: auto;
+    margin: 0 auto;
     color: white;
-    height: 100vh;
     background-color: gray;
     font-family: 'Roboto', sans-serif;
 }
 
 .curriculo{
+    width: 65%;
     display: flex;
     font-size: 1.6em;
 }
@@ -39,8 +41,8 @@ header{
 }
 
 .eu {
-    width: 12.5rem;
-    height: 12.5rem;
+    width: 11.5rem;
+    height: 11.5rem;
     border-radius: 50%;
     border: 0.2em solid white;
 }
@@ -67,6 +69,8 @@ hr{
 
 .ctt_info{
 display: flex;
+align-items: center;
+text-align: left;
 }
 
 .ctt_img {
@@ -75,7 +79,7 @@ display: flex;
 }
 
 .ctt_p{
- margin-left: 1em;
+    margin-left: 1em;
 }
 
 ul{
@@ -111,8 +115,10 @@ ul{
 }
 
 .sobremim{
+    text-align: justify;
     margin-left: 1em;   
     margin-top: 2em;
+    width: 55%;
 }
 
 .sobremim p,
